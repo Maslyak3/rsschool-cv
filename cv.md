@@ -14,7 +14,7 @@
 
 ### About me
 
-## For 20 years I've been working in automotive industry until 2024. I decided to learn JS and Angular to become a professional developer. Better late then never.
+For 20 years I've been working in automotive industry until 2024. I decided to learn JS and Angular to become a professional developer. Better late then never.
 
 ### Skills
 
@@ -46,7 +46,7 @@ return [positiveNums , negativeNums];}
 ### Courses:
 
 - JavaScript [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
-- [RS School] (https://rs.school/) Course «JavaScript/Front-end. Stage 0» (in progress)
+- [RS School](https://rs.school/) Course «JavaScript/Front-end. Stage 0» (in progress)
 - Responsive Web Design on [FreeCodeCamp](https://www.freecodecamp.org/)
 - Javascript Algorithms and Data Structures on [FreeCodeCamp](https://www.freecodecamp.org/) (in progress)
 
