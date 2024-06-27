@@ -31,7 +31,7 @@ Given an array of integers.
 Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
 If the input is an empty array or is null, return an empty array.
 
-````
+```
 function countPositivesSumNegatives(input) {
 let positiveNums = 0;
 let negativeNums = 0;
@@ -40,18 +40,24 @@ if (input === null || input.length === 0) {
 } else {
   input.forEach((num) => num > 0 ? positiveNums++ : negativeNums += num);
 }
-return [positiveNums , negativeNums];} ```
+return [positiveNums , negativeNums];}
+```
 
 ### Courses:
-* JavaScript [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
-* [RS School] (https://rs.school/) Course «JavaScript/Front-end. Stage 0» (in progress)
-* Responsive Web Design on [FreeCodeCamp](https://www.freecodecamp.org/)
-* Javascript Algorithms and Data Structures on [FreeCodeCamp](https://www.freecodecamp.org/) (in progress)
+
+- JavaScript [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- [RS School] (https://rs.school/) Course «JavaScript/Front-end. Stage 0» (in progress)
+- Responsive Web Design on [FreeCodeCamp](https://www.freecodecamp.org/)
+- Javascript Algorithms and Data Structures on [FreeCodeCamp](https://www.freecodecamp.org/) (in progress)
+
 ---
 
 ### Languages:
-* English - advanced
-* Russian - professional
-* Ukrainian - native
 
-````
+- English - advanced
+- Russian - professional
+- Ukrainian - native
+
+```
+
+```
