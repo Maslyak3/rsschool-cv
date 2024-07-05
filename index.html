@@ -1,17 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
-    >
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <img
-      src="https://scontent.fiev6-1.fna.fbcdn.net/v/t39.30808-6/306223963_10227933154055665_6469999176778220341_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rLr_IjSRwAwQ7kNvgHruUhi&_nc_ht=scontent.fiev6-1.fna&oh=00_AYChFehMVttZADebcapiIK1eYhv05hU3e8it4D2ZDWvVlQ&oe=6685AC95"
-      alt="Personal photo"
-    >
+    <header>
+      <h1>Masliak Roman</h1>
+      <h2>Junior Front-End Developer</h2>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left-flex">
+          <img
+            class="personal-photo"
+            src="src/Personal-photo.jpg"
+            alt="Personal photo"
+          />
+          <div class="contacts">
+            <h3>Contact information:</h3>
+            <br />
+            E-mail: Maslyak3@gmail.com
+            <br />
+            Phone: +380673270251
+            <br />
+            Discord: @roman_22_10
+            <br />
+            Github: https://github.com/Maslyak3
+            <br />
+            Telegram: @Romas1981
+          </div>
+          <div class="languages">
+            <h3>Languages:</h3>
+            <ul>
+              <li>English - advanced</li>
+              <li>Russian - professional</li>
+              <li>Ukrainian - native</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Skills:</h3>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript Basics</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-flex">
+          <div class="about-me">
+            <h3>About me</h3>
+            For 20 years I’ve been working in automotive industry until 2024. I
+            decided to learn JS and Angular to become a professional developer.
+            Better late then never. There are two things I love the most: cars
+            and computers.
+          </div>
+          <div class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>JavaScript learnjavascript.ru (in progress)</li>
+              <li
+                >RS School Course «JavaScript/Front-end. Stage 0» (in
+                progress)</li
+              >
+              <li>Responsive Web Design on FreeCodeCamp</li>
+              <li
+                >Javascript Algorithms and Data Structures on FreeCodeCamp (in
+                progress)</li
+              >
+              <li>Shecodes.io - Advanced Javascript</li>
+            </ul>
+          </div>
+          <div class="code">
+            <h3>Code example</h3>
+            Given an array of integers. Return an array, where the first element
+            is the count of positives numbers and the second element is sum of
+            negative numbers. 0 is neither positive nor negative. If the input
+            is an empty array or is null, return an empty array.
+            <br />
+            <pre>
+            function countPositivesSumNegatives(input) { let positiveNums = 0;
+            let negativeNums = 0; if (input === null || input.length === 0) {
+            return []; } else { input.forEach((num) => num > 0 ? positiveNums++
+            : negativeNums += num); } return [positiveNums ,
+            negativeNums];}</pre
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="my-github">
+          <a href="https://github.com/Maslyak3"
+            ><img
+              class="github-logo"
+              src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
+              alt="GitHub Account"
+          /></a>
+        </div>
+        <div class="rs-school"
+          ><a href="https://rs.school/courses/javascript-ru"
+            ><img
+              class="rs-school-logo"
+              src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+              alt="RsSchool course" /></a
+        ></div>
+        <div class="year">2024</div>
+      </div>
+    </footer>
   </body>
 </html>

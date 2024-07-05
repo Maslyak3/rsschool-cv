@@ -1,3 +1,44 @@
-img {
-  width: 50px;
+.personal-photo {
+  width: 200px;
+  border-radius: 50%;
+}
+header {
+  text-align: center;
+}
+body {
+  background-color: #6f7c80;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #79a1ad;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.right-flex {
+  padding: 30px;
+}
+.left-flex {
+  padding: 30px;
+}
+.about-me {
+  width: 400px;
+}
+.code {
+  width: 400px;
+}
+pre {
+  background-color: gray;
+  width: 400px;
+}
+.github-logo {
+  width: 40px;
+}
+.rs-school-logo {
+  width: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
 }
