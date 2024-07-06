@@ -7,6 +7,7 @@ header {
 }
 body {
   background-color: #6f7c80;
+  font-family: lato;
 }
 .container {
   display: flex;
@@ -18,11 +19,11 @@ body {
 }
 .right-flex {
   padding: 30px;
-  width: 70%;
+  width: 65%;
 }
 .left-flex {
   padding: 30px;
-  width: 30%;
+  width: 35%;
 }
 .about-me {
   width: 100%;
@@ -44,4 +45,9 @@ pre {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+}
+.contact-ul {
+  list-style: none;
+  padding-left: 1px;
+  line-height: 120%;
 }
